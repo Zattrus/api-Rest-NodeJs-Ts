@@ -1,10 +1,13 @@
-import express from "express";
+import express from 'express';
 
 const server = express();
 
-server.get("/", (req, res) => {
-  res.send("Hello World");
+// interface Teste {
+
+// }
+
+server.get('/', (req, res) => {
+  res.send('Olá DEV!');
 });
 
 export { server };
-

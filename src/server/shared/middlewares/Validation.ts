@@ -36,10 +36,5 @@ export const validation:TValidation = (getAllSchemas) => async (req, res, next) 
   }else {
     return res.status(StatusCodes.BAD_REQUEST).json({ errors: errosResult });
   }
-  // return next();
-  // return res.status(StatusCodes.BAD_REQUEST).json({ 
-  //   errors: erros,
-  // });
-};
 
-  
+};
